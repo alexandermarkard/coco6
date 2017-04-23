@@ -1,0 +1,16 @@
+executable("coco6_loop") {
+  sources = ["coco6_loop.cc", "phone.rc"]
+  deps = [
+    "//webrtc/modules/audio_processing:audio_processing",
+    "//webrtc/modules/audio_device:audio_device",
+    "//webrtc/base:rtc_base_approved",
+    "//webrtc/base:rtc_task_queue",
+    "//webrtc:webrtc_common",
+    "//webrtc/common_audio",
+    "//webrtc/system_wrappers",
+    "//webrtc/system_wrappers:system_wrappers_default",
+    "//webrtc/modules/utility",
+    "//webrtc/modules/rtp_rtcp",
+    "//third_party/opus"
+  ]
+}

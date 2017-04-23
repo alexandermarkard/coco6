@@ -1,0 +1,4 @@
+...
+group("alex") {
+  deps = [ "//alex:coco6_loop" ]
+}
